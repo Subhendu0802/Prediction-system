@@ -51,7 +51,7 @@ def main():
     
     #creating button for prediction
     if st.button('Predict'):
-        prediction = st.titanic_survival_prediction([Pclass,Sex,Age,SibSp,Parch,Fare,Embarked])
+        prediction = titanic_survival_prediction([Pclass,Sex,Age,SibSp,Parch,Fare,Embarked])
         
         st.success(prediction)
     
