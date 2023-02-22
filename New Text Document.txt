@@ -1,7 +1,0 @@
-Modules required are
-Numpy
-Pandas
-matplotlib
-scikit
-pickle
-streamlit
